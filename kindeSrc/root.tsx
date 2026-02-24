@@ -30,12 +30,6 @@ export const Root = ({
         
         <title>{context.widget.content.page_title}</title>
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
-
-        {/* Import Google Fonts directly */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
-        
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
         <style>{getStyles()}</style>
