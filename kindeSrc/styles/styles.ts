@@ -30,7 +30,7 @@ export const getStyles = (): string => `
     --kinde-shared-color-text-label: #fff;
   }
 
-  body {
+  body, html {
     font-family: var(--kinde-base-font-family);
   }
 
