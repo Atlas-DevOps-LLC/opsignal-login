@@ -10,7 +10,7 @@ const styles: {
   widget: React.CSSProperties;
 } = {
   loginForm: {
-    minWidth: "50%",
+    width: "100%",
     margin: "0 auto",
     display: "flex",
     flexDirection: "column",
