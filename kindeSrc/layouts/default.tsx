@@ -55,11 +55,19 @@ const styles: {
     justifyContent: "space-between",
     alignItems: "center",
     padding: "10px 20px",
+    width: "100%",
   },
   footerLink: {
     display: "flex",
     alignItems: "center",
     gap: "10px",
+    color: "#414651",
+    textDecoration: "none",
+    fontSize: "14px",
+    fontWeight: "400",
+    lineHeight: "1.5",
+    letterSpacing: "0.01em",
+    fontFamily: "Figtree, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   },
 };
 
