@@ -30,6 +30,10 @@ export const getStyles = (): string => `
     --kinde-shared-color-text-label: #fff;
   }
 
+  body {
+    font-family: var(--kinde-base-font-family);
+  }
+
   [data-kinde-choice-separator] {
     text-transform: uppercase;
   }
