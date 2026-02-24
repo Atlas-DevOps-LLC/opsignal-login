@@ -9,10 +9,9 @@ const styles: {
     height: "100vh",
   },
   sidePanel: {
-    borderRadius: "1rem",
     backgroundColor: "rgba(0, 167, 227, 1)",
+    backgroundImage: "linear-gradient(90deg in oklab, rgb(6, 89, 134) 0%, rgb(0, 167, 227) 100%)",
     flex: 1,
-    margin: "0.5rem",
     maxWidth: "1024px",
   },
 };
