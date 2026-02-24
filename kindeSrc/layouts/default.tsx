@@ -45,13 +45,13 @@ const styles: {
     fill: "#017aa9"
   },
   secondaryLogo: {
-    fill: "#017aa9"
+    fill: "#303947"
   },
   footer: {
     fontSize: "12px",
     color: "#fff",
-    textAlign: "center",
-    marginTop: "20px",
+    textAlign: "left",
+    padding: "20px",
   },
 };
 

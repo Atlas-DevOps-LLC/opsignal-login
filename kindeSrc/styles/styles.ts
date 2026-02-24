@@ -30,9 +30,12 @@ export const getStyles = (): string => `
     --kinde-button-secondary-border-color: ${kindeVariables.buttonSecondaryBorderColor};
     --kinde-button-secondary-border-style: ${kindeVariables.buttonSecondaryBorderStyle};
     --kinde-button-secondary-border-radius: ${kindeVariables.buttonSecondaryBorderRadius};
-    --kinde-control-text-color: #fff;
-    --kinde-control-label-color: #fff;
-    --kinde-shared-color-text-label: #fff;
+    --kinde-control-text-color: #303947;
+    --kinde-control-label-color: #303947;
+    --kinde-shared-color-text-label: #303947;
+    --kinde-base-background-color: #fff
+    --kinde-designer-base-background-color: #fff;
+    --kinde-base-color: #303947;
   }
 
   body, html {
@@ -44,13 +47,13 @@ export const getStyles = (): string => `
   }
     
   .kinde-control-select-text {
-    color: #fff;
+    color: #303947;
   }
   .kinde-control-label {
-    color: #fff;
+    color: #303947;
   }
   .kinde-shared-color-text-label {
-    color: #fff;
+    color: #303947;
   }
 
   [data-kinde-layout-auth-buttons] { 
