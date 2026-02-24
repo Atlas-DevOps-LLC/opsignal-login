@@ -15,7 +15,7 @@ const styles: {
   contentContainer: {
     display: "flex",
     flexDirection: "column",
-    justifyContent: "center",
+    justifyContent: "space-between",
     alignItems: "center",
     width: "50%",
     height: "100%",
@@ -29,10 +29,8 @@ const styles: {
   logoContainer: {
     display: "flex",
     alignItems: "center",
-    gap: "2px",
-    width: "33px",
-    height: "8px",
-    justifyContent: "start",
+    width: "132px",
+    height: "32px",
   },
   primaryLogo: {
     fill: "#017aa9"
