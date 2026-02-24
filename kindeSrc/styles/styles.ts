@@ -25,6 +25,7 @@ export const getStyles = (): string => `
     --kinde-button-secondary-border-color: ${kindeVariables.buttonSecondaryBorderColor};
     --kinde-button-secondary-border-style: ${kindeVariables.buttonSecondaryBorderStyle};
     --kinde-button-secondary-border-radius: ${kindeVariables.buttonSecondaryBorderRadius};
+    --kinde-control-text-color: #fff;
   }
 
   [data-kinde-choice-separator] {
