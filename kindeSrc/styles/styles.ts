@@ -33,6 +33,16 @@ export const getStyles = (): string => `
   [data-kinde-choice-separator] {
     text-transform: uppercase;
   }
+    
+  .kinde-control-select-text {
+    color: #fff;
+  }
+  .kinde-control-label {
+    color: #fff;
+  }
+  .kinde-shared-color-text-label {
+    color: #fff;
+  }
 
   [data-kinde-layout-auth-buttons] { 
     display: flex;
