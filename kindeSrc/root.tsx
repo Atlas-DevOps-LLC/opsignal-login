@@ -27,8 +27,9 @@ export const Root = ({
         <meta content={getKindeCSRF()} name="csrf-token" />
         <meta content="light" name="color-scheme" />
         <meta content="nopagereadaloud" name="google" />
+        
         <title>{context.widget.content.page_title}</title>
-
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet" />
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}

@@ -20,13 +20,17 @@ const styles: {
   heading: {
     fontWeight: "600",
     fontSize: "2rem",
+    color: "white",
   },
   description: {
     marginBottom: "1.5rem",
+    color: "white",
   },
   widget: {
+    width: "100%",
     maxWidth: "448px",
     margin: "0 auto",
+    color: "white",
   },
 };
 

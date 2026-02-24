@@ -1,16 +1,16 @@
 // CSS Variables configuration
 const kindeVariables = {
   baseFontFamily:
-    "-apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
-  controlSelectTextBorderRadius: "99px",
+    "Figtree, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
+  controlSelectTextBorderRadius: "8px",
   buttonPrimaryBackgroundColor: "rgba(0, 167, 227, 1)",
   buttonPrimaryColor: "#fff",
-  buttonBorderRadius: "99px",
+  buttonBorderRadius: "8px",
   buttonSecondaryBackgroundColor: "#fff",
   buttonSecondaryBorderWidth: "1px",
   buttonSecondaryBorderColor: "#e9edec",
   buttonSecondaryBorderStyle: "solid",
-  buttonSecondaryBorderRadius: "99px",
+  buttonSecondaryBorderRadius: "8px",
 } as const;
 
 export const getStyles = (): string => `
