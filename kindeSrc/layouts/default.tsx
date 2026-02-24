@@ -8,6 +8,7 @@ const styles: {
   logoContainer: React.CSSProperties;
   contentContainer: React.CSSProperties;
   footer: React.CSSProperties;
+  footerLink: React.CSSProperties;
   header: React.CSSProperties;
 } = {
   container: {
@@ -48,10 +49,17 @@ const styles: {
     fill: "#303947"
   },
   footer: {
-    fontSize: "12px",
-    color: "#fff",
-    textAlign: "left",
-    padding: "20px",
+    fontSize: "14px",
+    color: "#414651",
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    padding: "10px 20px",
+  },
+  footerLink: {
+    display: "flex",
+    alignItems: "center",
+    gap: "10px",
   },
 };
 
@@ -64,7 +72,7 @@ export const DefaultLayout = (props: { children: React.ReactNode }) => {
       </div>
       {props.children}
       <div style={styles.footer}>
-        <p>© 2026 All rights reserved.</p>
+          <p>© OpSignal 2026</p><a href="mailto:support@opsignal.ai" style={styles.footerLink}><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m2 7 8.165 5.715c.661.463.992.695 1.351.784a2 2 0 0 0 .968 0c.36-.09.69-.32 1.351-.784L22 7M6.8 20h10.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C22 17.72 22 16.88 22 15.2V8.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C19.72 4 18.88 4 17.2 4H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 6.28 2 7.12 2 8.8v6.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 20 5.12 20 6.8 20Z"></path></svg><span>support@opsignal.ai</span></a>
       </div>
       </div>
       <div style={styles.sidePanel}></div>
