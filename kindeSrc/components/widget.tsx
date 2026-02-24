@@ -15,22 +15,22 @@ const styles: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    color: "white",
+    color: "#303947",
   },
   heading: {
     fontWeight: "600",
     fontSize: "2rem",
-    color: "white",
+    color: "#303947",
   },
   description: {
     marginBottom: "1.5rem",
-    color: "white",
+    color: "#303947",
   },
   widget: {
     width: "100%",
     maxWidth: "448px",
     margin: "0 auto",
-    color: "white",
+    color: "#303947",
   },
 };
 
