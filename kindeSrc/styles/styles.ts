@@ -37,7 +37,7 @@ export const getStyles = (): string => `
   }
 
   [data-kinde-layout-auth-buttons-item] {
-    width: 3rem;
+    width: 100%;
     height: 3rem;
   }
 `;
