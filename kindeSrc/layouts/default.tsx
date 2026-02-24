@@ -10,7 +10,7 @@ const styles: {
   },
   sidePanel: {
     borderRadius: "1rem",
-    backgroundColor: "dodgerblue",
+    backgroundColor: "rgba(0, 167, 227, 1)",
     flex: 1,
     margin: "0.5rem",
     maxWidth: "1024px",
