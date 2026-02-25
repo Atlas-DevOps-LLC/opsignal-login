@@ -65,7 +65,13 @@ export const getStyles = (): string => `
   .kinde-shared-color-text-label {
     color: #303947;
   }
-
+  .kinde-choice-separator {
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    width: 0;
+  }
   [data-kinde-layout-auth-buttons] { 
     display: flex;
     justify-content: center;
