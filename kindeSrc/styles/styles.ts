@@ -76,7 +76,9 @@ export const getStyles = (): string => `
     display: flex;
     justify-content: center;
   }
-
+  .kinde-layout-widget-content>:not(:last-child) {
+    margin-bottom: 12px;
+  }
   [data-kinde-layout-auth-buttons-item] {
     width: 100%;
     height: 3rem;
