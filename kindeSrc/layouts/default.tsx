@@ -32,12 +32,6 @@ const styles: {
     width: "50%",
     height: "100%",
   },
-  sidePanel: {
-    backgroundColor: "rgba(0, 167, 227, 1)",
-    backgroundImage: "linear-gradient(90deg in oklab, rgb(6, 89, 134) 0%, rgb(0, 167, 227) 100%)",
-    flex: 1,
-    maxWidth: "1024px",
-  },
   logoContainer: {
     display: "flex",
     alignItems: "center",
@@ -70,7 +64,17 @@ const styles: {
     letterSpacing: "0.01em",
     fontFamily: "Figtree, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   },
+  sidePanel: {
+    backgroundColor: "rgba(0, 167, 227, 1)",
+    backgroundImage: "linear-gradient(90deg in oklab, rgb(6, 89, 134) 0%, rgb(0, 167, 227) 100%)",
+    flex: 1,
+    maxWidth: "1024px",
+  },
   backgroundImageBlock: {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignContent: "center",
     paddingLeft: "80px",
     paddingTop: "80px",
     paddingBottom: "80px"
@@ -82,6 +86,7 @@ const styles: {
     borderRightWidth: "0px",
     borderTopLeftRadius: "24px",
     borderBottomLeftRadius: "24px",
+    borderStyle: "solid"
   }
 };
 
