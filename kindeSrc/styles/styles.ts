@@ -81,7 +81,17 @@ export const getStyles = (): string => `
     height: 3rem;
   }
   .kinde-button.kinde-button-variant-primary {
-    box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -2px 0px 0px #0a0d120d inset, 0px 1px 2px #0a0d120d
+    box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -2px 0px 0px #0a0d120d inset, 0px 1px 2px #0a0d120d;
+    position: relative;
+  }
+  .kinde-button.kinde-button-variant-primary::before {
+    content: "";
+    mask-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(to bottom, black 0%, transparent 100%), linear-gradient(#fff, #fff);
+    mask-composite: intersect;
+    inset: 1px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
   }
   @media (max-width: 767px) { 
    .side-panel {
