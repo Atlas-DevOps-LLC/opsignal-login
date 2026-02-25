@@ -84,23 +84,33 @@ export const getStyles = (): string => `
     box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -2px 0px 0px #0a0d120d inset, 0px 1px 2px #0a0d120d;
     position: relative;
   }
-  .kinde-button.kinde-button-variant-primary::before {
-    content: " ";
-    display: block;
-    height: 100px;
-    width: 100px;
-   content: "";
+  // .kinde-button.kinde-button-variant-primary::before {
+  //   content: "";
+  //   display: block;
+  //   height: 100px;
+  //   width: 100px;
+  //   mask-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(to bottom, black 0%, transparent 100%), linear-gradient(#fff, #fff);
+  //   mask-composite: intersect;
+  //   inset: 1px;
+  //   border-width: 1px;
+  //   border-style: solid;
+  //   position: absolute;
+  // }
+
+  .kinde-button.kinde-button-variant-primary {
+  position: relative;
+  overflow: visible;
+}
+
+.kinde-button.kinde-button-variant-primary::before {
+  content: "";
   position: absolute;
   inset: 1px;
-  border: 1px solid red;   /* make visibility obvious */
+  border: 1px solid red;
   background: rgba(255, 0, 0, 0.1);
   pointer-events: none;
-    inset: 1px;
-    border-width: 1px;
-    border-style: solid;
-    position: absolute;
-    z-index: 10000;
-  }
+  z-index: 1;
+}
   @media (max-width: 767px) { 
    .side-panel {
       display: none;
