@@ -72,6 +72,7 @@ const styles: {
   },
   backgroundImageBlock: {
     display: "flex",
+    height: "100dvh",
     flexDirection: "column",
     justifyContent: "center",
     alignContent: "center",
