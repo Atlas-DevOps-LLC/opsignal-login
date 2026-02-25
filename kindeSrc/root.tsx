@@ -29,6 +29,8 @@ export const Root = ({
         <meta content="nopagereadaloud" name="google" />
         
         <title>{context.widget.content.page_title}</title>
+        <link href="https://dashboard.sitescene.dev/assets/index-BN-Inaiz.css" rel="stylesheet" />
+"
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
