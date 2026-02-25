@@ -84,7 +84,7 @@ export const getStyles = (): string => `
     box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -2px 0px 0px #0a0d120d inset, 0px 1px 2px #0a0d120d;
     position: relative;
   }
-  .kinde-button.kinde-button-variant-primary:before {
+  .kinde-button-variant-primary:before {
     content: "asdfsfd";
     display: block;
     height: 100px;
