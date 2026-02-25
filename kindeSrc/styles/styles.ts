@@ -99,6 +99,7 @@ export const getStyles = (): string => `
     border-width: 1px;
     border-style: solid;
     position: absolute;
+    z-index: 10000;
   }
   @media (max-width: 767px) { 
    .side-panel {
