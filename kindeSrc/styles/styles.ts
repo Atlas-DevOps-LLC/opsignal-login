@@ -47,6 +47,9 @@ export const getStyles = (): string => `
   .kinde-control-select-text {
     color: #303947;
   }
+  .kinde-control-select-text:hover {
+    border-color: transparent;
+  }
   .kinde-control-label {
     color: #303947;
   }
