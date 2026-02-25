@@ -4,6 +4,7 @@ const kindeVariables = {
     "Figtree, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "8px",
   buttonPrimaryBackgroundColor: "rgba(0, 167, 227, 1)",
+  buttonPrimaryBackgroundColorHover: "#026aa2",
   buttonPrimaryColor: "#fff",
   buttonBorderRadius: "8px",
   buttonSecondaryBackgroundColor: "#fff",
@@ -21,6 +22,7 @@ export const getStyles = (): string => `
     --kinde-control-select-text-border-radius: ${kindeVariables.controlSelectTextBorderRadius};
     --kinde-button-primary-background-color: ${kindeVariables.buttonPrimaryBackgroundColor};
     --kinde-button-primary-color: ${kindeVariables.buttonPrimaryColor};
+    --kinde-button-primary-background-color-hover: ${kindeVariables.buttonPrimaryBackgroundColorHover}
     --kinde-button-border-radius: ${kindeVariables.buttonBorderRadius};
     --kinde-button-secondary-background-color: ${kindeVariables.buttonSecondaryBackgroundColor};
     --kinde-button-secondary-border-width: ${kindeVariables.buttonSecondaryBorderWidth};
@@ -83,9 +85,6 @@ export const getStyles = (): string => `
   .kinde-button.kinde-button-variant-primary {
     box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -1px 0px 0px #0a0d120d inset, 0px 1px 1px #0a0d120d;
     position: relative;
-  }
-  .kinde-button.kinde-button-variant-primary::hover {
-   background-color: #026aa2;
   }
   @media (max-width: 767px) { 
    .side-panel {
