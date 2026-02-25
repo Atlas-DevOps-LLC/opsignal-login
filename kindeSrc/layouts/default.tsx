@@ -107,7 +107,7 @@ export const DefaultLayout = (props: { children: React.ReactNode }) => {
       </div>
       <div className="side-panel" style={styles.sidePanel}>
         <div style={styles.backgroundImageBlock}>
-          <img style={styles.panelImage} src="https://dashboard.sitescene.dev/assets/general-RBZ8L5Ar.jpg" />
+          <img style={styles.panelImage} src="https://dashboard.opsignal.ai/login/login-light-mode.png" />
         </div>
       </div>
     </div>

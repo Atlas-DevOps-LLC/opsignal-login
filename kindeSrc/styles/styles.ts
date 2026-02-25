@@ -17,6 +17,7 @@ const kindeVariables = {
 
 export const getStyles = (): string => `
   :root {
+  --base
     --kinde-control-select-text-border-color: #d5d7da;
     --kinde-control-select-text-border-color-hover: #d5d7da;
     --kinde-base-font-family: ${kindeVariables.baseFontFamily};
