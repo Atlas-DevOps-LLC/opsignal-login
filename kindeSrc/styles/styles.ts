@@ -16,6 +16,7 @@ const kindeVariables = {
 export const getStyles = (): string => `
   :root {
     --kinde-control-select-text-border-color: #d5d7da;
+    --kinde-control-select-text-border-color-hover: --kinde-control-select-text-border-color;
     --kinde-base-font-family: ${kindeVariables.baseFontFamily};
     --kinde-control-select-text-border-radius: ${kindeVariables.controlSelectTextBorderRadius};
     --kinde-button-primary-background-color: ${kindeVariables.buttonPrimaryBackgroundColor};
