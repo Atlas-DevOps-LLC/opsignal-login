@@ -81,7 +81,7 @@ export const getStyles = (): string => `
     height: 3rem;
   }
   .kinde-button.kinde-button-variant-primary {
-    background-color: red !important;
+    box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -2px 0px 0px #0a0d120d inset, 0px 1px 2px #0a0d120d
   }
   @media (max-width: 767px) { 
    .side-panel {
