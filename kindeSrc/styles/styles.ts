@@ -59,6 +59,8 @@ export const getStyles = (): string => `
   }
   .kinde-control-label {
     color: #303947;
+    font-size: 14px;
+    padding-bottom: 6px;
   }
   .kinde-shared-color-text-label {
     color: #303947;
