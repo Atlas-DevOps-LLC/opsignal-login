@@ -60,9 +60,8 @@ export const getStyles = (): string => `
     width: 100%;
     height: 3rem;
   }
-  @media (width < 48rem) { 
+  
    .side-panel {
       display: none;
-   }
   }
 `;
