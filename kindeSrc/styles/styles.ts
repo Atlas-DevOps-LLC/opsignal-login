@@ -33,7 +33,7 @@ export const getStyles = (): string => `
     --kinde-base-color: #303947;
     --kinde-base-focus-outline-offset: 0;
     --kinde-base-focus-outline-width: 1px;
-    --kinde-base-focus-outline-color: #0ba5ecl
+    --kinde-base-focus-outline-color: #0ba5ec
   }
 
   body, html {
