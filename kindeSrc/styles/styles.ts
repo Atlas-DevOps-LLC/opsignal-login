@@ -60,7 +60,7 @@ export const getStyles = (): string => `
     width: 100%;
     height: 3rem;
   }
-  @media (max-width: 1250px) { 
+  @media (max-width: 767px) { 
    .side-panel {
       display: none;
    }
