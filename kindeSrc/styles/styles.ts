@@ -85,7 +85,10 @@ export const getStyles = (): string => `
     position: relative;
   }
   .kinde-button.kinde-button-variant-primary::before {
-    content: "";
+    content: " ";
+    display: block;
+    height: 100px;
+    width: 100px;
     mask-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(to bottom, black 0%, transparent 100%), linear-gradient(#fff, #fff);
     mask-composite: intersect;
     inset: 1px;
