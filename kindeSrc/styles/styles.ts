@@ -33,7 +33,7 @@ export const getStyles = (): string => `
     --kinde-designer-base-background-color: #fff;
     --kinde-base-color: #303947;
     --kinde-base-focus-outline-offset: 0;
-    --kinde-base-focus-outline-width: 1px;
+    --kinde-base-focus-outline-width: 1.5px;
     --kinde-base-focus-outline-color: #0ba5ec
   }
 
@@ -50,7 +50,7 @@ export const getStyles = (): string => `
 
   }
   .kinde-control-select-text:hover {
-    border-color: transparent;
+    border-color: --kinde-control-select-text-border-color;
   }
   .kinde-control-label {
     color: #303947;
