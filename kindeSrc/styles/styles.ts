@@ -31,6 +31,9 @@ export const getStyles = (): string => `
     --kinde-base-background-color: #fff
     --kinde-designer-base-background-color: #fff;
     --kinde-base-color: #303947;
+    --kinde-base-focus-outline-offset: 0;
+    --kinde-base-focus-outline-width: 1px;
+    --kinde-base-focus-outline-color: #0ba5ecl
   }
 
   body, html {
