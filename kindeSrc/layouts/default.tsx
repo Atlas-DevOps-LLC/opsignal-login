@@ -31,6 +31,7 @@ const styles: {
     padding: "24px 32px 16px",
     width: "50%",
     height: "100%",
+    flex: "1"
   },
   logoContainer: {
     display: "flex",
