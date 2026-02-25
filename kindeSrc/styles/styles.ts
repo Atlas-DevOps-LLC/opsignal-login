@@ -12,6 +12,7 @@ const kindeVariables = {
   buttonSecondaryBorderColor: "#e9edec",
   buttonSecondaryBorderStyle: "solid",
   buttonSecondaryBorderRadius: "8px",
+  errorColor: "#f04438"
 } as const;
 
 export const getStyles = (): string => `
@@ -37,7 +38,10 @@ export const getStyles = (): string => `
     --kinde-base-color: #303947;
     --kinde-base-focus-outline-offset: 0;
     --kinde-base-focus-outline-width: 1.5px;
-    --kinde-base-focus-outline-color: #0ba5ec
+    --kinde-base-focus-outline-color: #0ba5ec;
+    --kinde-control-associated-text-invalid-message-color: ${kindeVariables.errorColor};
+    --kinde-shared-color-invalid: ${kindeVariables.errorColor}
+
   }
 
   body, html {
