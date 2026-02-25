@@ -48,6 +48,10 @@ export const getStyles = (): string => `
     
   .kinde-control-select-text {
     color: #303947;
+    line-height: 22px;
+    font-size: 16px;
+    padding: 10px 14px;
+    height: auto;
 
   }
   .kinde-control-select-text:hover {
