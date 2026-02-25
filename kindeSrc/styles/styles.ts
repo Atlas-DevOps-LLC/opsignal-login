@@ -85,6 +85,7 @@ export const getStyles = (): string => `
   .kinde-button-primary,
   .kinde-button {
     align-items: center;
+    background: red !important;
     animation-duration: 0.1s;
     animation-timing-function: linear;
     appearance: button;
