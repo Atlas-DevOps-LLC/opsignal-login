@@ -32,7 +32,6 @@ export const Root = ({
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
-        <link href="https://dashboard.sitescene.dev/styles/fonts.css" rel="stylesheet" />
         <style>{getStyles()}</style>
       </head>
 
