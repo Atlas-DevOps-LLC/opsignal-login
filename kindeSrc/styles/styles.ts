@@ -15,11 +15,6 @@ const kindeVariables = {
 
 export const getStyles = (): string => `
   :root {
-    @font-face {
-      font-family: Figtree;
-      src: url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-      /* replace with your font (hosted on your server) */
-    }
     --kinde-base-font-family: ${kindeVariables.baseFontFamily};
     --kinde-control-select-text-border-radius: ${kindeVariables.controlSelectTextBorderRadius};
     --kinde-button-primary-background-color: ${kindeVariables.buttonPrimaryBackgroundColor};
