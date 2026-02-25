@@ -84,17 +84,8 @@ export const getStyles = (): string => `
     box-shadow: 0px 0px 0px 1px #0a0d122e inset, 0px -1px 0px 0px #0a0d120d inset, 0px 1px 1px #0a0d120d;
     position: relative;
   }
-  .kinde-button.kinde-button-variant-primary::after {
-    content: "";
-    display: block;
-    height: 100px;
-    width: 100px;
-    mask-image: linear-gradient(#fff, #fff), linear-gradient(#fff, #fff), linear-gradient(to bottom, black 0%, transparent 100%), linear-gradient(#fff, #fff);
-    mask-composite: intersect;
-    inset: 1px;
-    border-width: 1px;
-    border-style: solid;
-    position: absolute;
+  .kinde-button.kinde-button-variant-primary::hover {
+   background-color: #026aa2;
   }
   @media (max-width: 767px) { 
    .side-panel {
