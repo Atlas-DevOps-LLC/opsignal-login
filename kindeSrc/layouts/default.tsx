@@ -87,7 +87,9 @@ const styles: {
     borderRightWidth: "0px",
     borderTopLeftRadius: "24px",
     borderBottomLeftRadius: "24px",
-    borderStyle: "solid"
+    borderStyle: "solid",
+    height: "100%",
+    objectPosition: "left top"
   }
 };
 
@@ -103,7 +105,7 @@ export const DefaultLayout = (props: { children: React.ReactNode }) => {
           <p>© OpSignal 2026</p><a href="mailto:support@opsignal.ai" style={styles.footerLink}><svg viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true"><path d="m2 7 8.165 5.715c.661.463.992.695 1.351.784a2 2 0 0 0 .968 0c.36-.09.69-.32 1.351-.784L22 7M6.8 20h10.4c1.68 0 2.52 0 3.162-.327a3 3 0 0 0 1.311-1.311C22 17.72 22 16.88 22 15.2V8.8c0-1.68 0-2.52-.327-3.162a3 3 0 0 0-1.311-1.311C19.72 4 18.88 4 17.2 4H6.8c-1.68 0-2.52 0-3.162.327a3 3 0 0 0-1.311 1.311C2 6.28 2 7.12 2 8.8v6.4c0 1.68 0 2.52.327 3.162a3 3 0 0 0 1.311 1.311C4.28 20 5.12 20 6.8 20Z"></path></svg><span>support@opsignal.ai</span></a>
       </div>
       </div>
-      <div style={styles.sidePanel}>
+      <div className="side-panel" style={styles.sidePanel}>
         <div style={styles.backgroundImageBlock}>
           <img style={styles.panelImage} src="https://dashboard.sitescene.dev/assets/general-RBZ8L5Ar.jpg" />
         </div>
