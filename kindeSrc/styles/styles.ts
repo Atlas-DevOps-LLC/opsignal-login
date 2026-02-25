@@ -66,11 +66,7 @@ export const getStyles = (): string => `
     color: #303947;
   }
   .kinde-choice-separator {
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    overflow: hidden;
-    width: 0;
+    display: none;
   }
   [data-kinde-layout-auth-buttons] { 
     display: flex;
