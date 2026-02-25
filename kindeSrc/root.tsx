@@ -30,9 +30,10 @@ export const Root = ({
         
         <title>{context.widget.content.page_title}</title>
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
+        <style>{getStyles()}</style>
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
-        <style>{getStyles()}</style>
+        
       </head>
 
       <body>
