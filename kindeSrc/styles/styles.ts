@@ -22,7 +22,7 @@ export const getStyles = (): string => `
     --kinde-control-select-text-border-radius: ${kindeVariables.controlSelectTextBorderRadius};
     --kinde-button-primary-background-color: ${kindeVariables.buttonPrimaryBackgroundColor};
     --kinde-button-primary-color: ${kindeVariables.buttonPrimaryColor};
-    --kinde-button-primary-background-color-hover: ${kindeVariables.buttonPrimaryBackgroundColorHover}
+    --kinde-button-primary-background-color-hover: ${kindeVariables.buttonPrimaryBackgroundColorHover};
     --kinde-button-border-radius: ${kindeVariables.buttonBorderRadius};
     --kinde-button-secondary-background-color: ${kindeVariables.buttonSecondaryBackgroundColor};
     --kinde-button-secondary-border-width: ${kindeVariables.buttonSecondaryBorderWidth};
