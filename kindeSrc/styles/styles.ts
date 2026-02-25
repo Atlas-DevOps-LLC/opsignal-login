@@ -100,6 +100,7 @@ export const getStyles = (): string => `
   .kinde-button.kinde-button-variant-primary {
   position: relative;
   overflow: visible;
+  background: red;
 }
 
 .kinde-button.kinde-button-variant-primary::before {
