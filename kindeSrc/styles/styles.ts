@@ -51,7 +51,7 @@ export const getStyles = (): string => `
 
   }
   .kinde-control-select-text:hover {
-    border-color: --kinde-control-select-text-border-color;
+    border-color: var(--kinde-control-select-text-border-color);
   }
   .kinde-control-label {
     color: #303947;
