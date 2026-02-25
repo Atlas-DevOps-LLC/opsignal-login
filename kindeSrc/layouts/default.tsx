@@ -20,13 +20,13 @@ const styles: {
     justifyContent: "space-between",
     alignItems: "flex-start",
     width: "100%",
-    padding: "20px",
   },
   contentContainer: {
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "center",
+    padding: "8px 16px",
     width: "50%",
     height: "100%",
   },
@@ -54,7 +54,6 @@ const styles: {
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: "10px 20px",
     width: "100%",
   },
   footerLink: {
