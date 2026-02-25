@@ -83,7 +83,7 @@ export const getStyles = (): string => `
   [data-kinde-layout-auth-buttons-item] > a,
   [data-kinde-layout-auth-buttons-item] > [role="button"],
   .kinde-button-primary,
-  .kinde-button.kinde-button-variant-primary {
+  .kinde-button {
     align-items: center;
     animation-duration: 0.1s;
     animation-timing-function: linear;
