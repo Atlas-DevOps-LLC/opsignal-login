@@ -96,13 +96,6 @@ export const getStyles = (): string => `
   //   border-style: solid;
   //   position: absolute;
   // }
-
-  .kinde-button.kinde-button-variant-primary {
-  position: relative;
-  overflow: visible;
-  background: red;
-}
-
 .kinde-button.kinde-button-variant-primary::before {
   content: "";
   position: absolute;
@@ -112,6 +105,12 @@ export const getStyles = (): string => `
   pointer-events: none;
   z-index: 1;
 }
+  .kinde-button.kinde-button-variant-primary {
+  position: relative;
+  overflow: visible;
+}
+
+
   @media (max-width: 767px) { 
    .side-panel {
       display: none;
