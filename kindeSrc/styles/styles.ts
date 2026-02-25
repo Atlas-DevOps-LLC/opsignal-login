@@ -85,7 +85,7 @@ export const getStyles = (): string => `
     position: relative;
   }
   .kinde-button.kinde-button-variant-primary:before {
-    content: " ";
+    content: "asdfsfd";
     display: block;
     height: 100px;
     width: 100px;
