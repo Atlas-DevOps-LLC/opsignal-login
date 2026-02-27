@@ -1,7 +1,7 @@
 // CSS Variables configuration
 const kindeVariables = {
   baseFontFamily:
-    "-apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
+    "Figtree, -apple-system, system-ui, BlinkMacSystemFont, Helvetica, Arial, Segoe UI, Roboto, sans-serif",
   controlSelectTextBorderRadius: "8px",
   buttonPrimaryBackgroundColor: "rgba(0, 167, 227, 1)",
   buttonPrimaryBackgroundColorHover: "#026aa2",
@@ -19,13 +19,14 @@ export const getStyles = (): string => `
   
   @font-face {
     font-family: 'Figtree'; 
-    src: url('https://dashboard.sitescene.dev/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal; 
+    src: url('https://dashboard.opsignal.ai/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900; 
     font-style: normal;
+    font-display: swap;
   }
 
   :root {
-    --kinde-base-font-family: 'Figtree', ${kindeVariables.baseFontFamily};
+    --kinde-base-font-family:  ${kindeVariables.baseFontFamily};
     --kinde-control-select-text-border-color: #d5d7da;
     --kinde-control-select-text-border-color-hover: #d5d7da;
     --kinde-base-font-family: ${kindeVariables.baseFontFamily};
