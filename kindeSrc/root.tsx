@@ -9,6 +9,7 @@ import {
 } from "@kinde/infrastructure";
 import React from "react";
 import { getStyles } from "./styles/styles";
+import { FIGTREE_FONT_BASE64 } from "./fonts/figtree";
 interface RootProps extends KindePageEvent {
   children: React.ReactNode;
 }
@@ -33,7 +34,7 @@ export const Root = ({
         <style dangerouslySetInnerHTML={{ __html: `
           @font-face {
             font-family: 'Figtree';
-            src: url('./fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+            src: url(data:font/ttf;base64,${FIGTREE_FONT_BASE64}) format('truetype-variations');
             font-weight: 100 900;
             font-style: normal;
             font-display: swap;
