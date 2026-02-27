@@ -19,9 +19,10 @@ export const getStyles = (): string => `
   
   @font-face {
     font-family: 'Figtree'; 
-    src: url('https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal; 
+    src: url('https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900; 
     font-style: normal;
+    font-display: swap;
   }
 
   :root {
@@ -42,15 +43,14 @@ export const getStyles = (): string => `
     --kinde-control-text-color: #303947;
     --kinde-control-label-color: #303947;
     --kinde-shared-color-text-label: #303947;
-    --kinde-base-background-color: #fff
+    --kinde-base-background-color: #fff;
     --kinde-designer-base-background-color: #fff;
     --kinde-base-color: #303947;
     --kinde-base-focus-outline-offset: 0;
     --kinde-base-focus-outline-width: 1.5px;
     --kinde-base-focus-outline-color: #0ba5ec;
     --kinde-control-associated-text-invalid-message-color: ${kindeVariables.errorColor};
-    --kinde-shared-color-invalid: ${kindeVariables.errorColor}
-
+    --kinde-shared-color-invalid: ${kindeVariables.errorColor};
   }
 
   body, html {
