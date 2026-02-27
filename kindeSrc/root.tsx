@@ -32,8 +32,8 @@ export const Root = ({
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
         <style>{`
           @font-face {
-            font-family: 'Figtree';
-            src: url('https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype-variations');
+            font-family: "Figtree";
+            src: url("https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf") format('truetype-variations');
             font-weight: 100 900;
             font-style: normal;
             font-display: swap;
