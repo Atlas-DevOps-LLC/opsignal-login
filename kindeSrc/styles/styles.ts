@@ -16,14 +16,7 @@ const kindeVariables = {
 } as const;
 
 export const getStyles = (): string => `
-  
-  @font-face {
-    font-family: 'Figtree'; 
-    src: url('https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype-variations');
-    font-weight: 100 900; 
-    font-style: normal;
-    font-display: swap;
-  }
+
 
   :root {
     --kinde-base-font-family:  ${kindeVariables.baseFontFamily};
