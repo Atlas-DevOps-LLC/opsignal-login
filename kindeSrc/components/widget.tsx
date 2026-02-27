@@ -18,9 +18,10 @@ const styles: {
     color: "#303947",
   },
   heading: {
-    fontWeight: "600",
-    fontSize: "2rem",
-    color: "#303947",
+    fontWeight: "700",
+    fontSize: "30px",
+    color: "#414651",
+    lineHeight: "1.2",
   },
   description: {
     marginBottom: "1.5rem",
