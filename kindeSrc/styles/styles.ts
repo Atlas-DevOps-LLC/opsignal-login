@@ -58,6 +58,12 @@ export const getStyles = (): string => `
     font-family: 'Figtree', var(--kinde-base-font-family);
   }
 
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -.75px;
+    color: #414651;
+    font-weight: 700;
+  }
+
   [data-kinde-choice-separator] {
     text-transform: uppercase;
   }
@@ -82,7 +88,6 @@ export const getStyles = (): string => `
     color: #303947;
   }
   .kinde-choice-separator {
-   
     display: none;
   }
   [data-kinde-layout-auth-buttons] { 
