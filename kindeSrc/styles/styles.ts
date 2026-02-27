@@ -54,7 +54,7 @@ export const getStyles = (): string => `
   }
 
   body, html {
-    font-family: 'Figtree', var(--kinde-base-font-family);
+    font-family: var(--kinde-base-font-family);
   }
 
   [data-kinde-choice-separator] {
