@@ -55,7 +55,6 @@ export const getStyles = (): string => `
 
   body, html {
     font-family: var(--kinde-base-font-family);
-    background: red;
   }
 
   h1, h2, h3, h4, h5, h6 {
