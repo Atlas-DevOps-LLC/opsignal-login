@@ -32,7 +32,7 @@ export const Root = ({
         <link href={getSVGFaviconUrl()} rel="icon" type="image/svg+xml" />
         {getKindeRequiredCSS()}
         {getKindeRequiredJS()}
-        <style>{getStyles()}</style>
+        <style dangerouslySetInnerHTML={{ __html: getStyles() }} />
       </head>
 
       <body>
