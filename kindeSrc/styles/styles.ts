@@ -19,7 +19,7 @@ export const getStyles = (): string => `
   
   @font-face {
     font-family: 'Figtree'; 
-    src: url('https://dashboard.sitescene.dev/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+    src: url('https://dashboard.sitescene.dev/fonts/variable/Figtree-VariableFont_wght.ttf') format('truetype');
     font-weight: normal; 
     font-style: normal;
   }
